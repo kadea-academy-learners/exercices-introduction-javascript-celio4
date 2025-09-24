@@ -1,6 +1,9 @@
-// Exercice 5 : conversion Celsius -> Fahrenheit
+// Exercice 5 : conversion Celsius -> Fahrenheit avec fonction
 
-let celsius = 25; // température en Celsius
-let fahrenheit = (celsius * 9/5) + 32;
+function celsiusToFahrenheit(celsius) {
+  return (celsius * 9/5) + 32;
+}
 
-console.log(fahrenheit);
+// Exemple d'utilisation
+let tempC = 25;
+console.log(celsiusToFahrenheit(tempC));
