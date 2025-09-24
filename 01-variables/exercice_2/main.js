@@ -1,13 +1,5 @@
-// Exercice 2 : Déclaration de variables
+// Exercice 2 : afficher la variable nom
 
-// une chaîne de caractères
-let nom = "Fofo";
+let nom = "Kadea";
 
-// un nombre
-const myAge = 25;
-
-// un booléen
-const isStudent = true;
-
-module.exports = { myName, myAge, isStudent };
-
+console.log(nom);
