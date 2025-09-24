@@ -7,3 +7,6 @@ function celsiusToFahrenheit(celsius) {
 // Exemple d'utilisation
 let tempC = 25;
 console.log(celsiusToFahrenheit(tempC));
+
+// Exporter la fonction pour que le test Jest puisse l'utiliser
+module.exports = { celsiusToFahrenheit };
