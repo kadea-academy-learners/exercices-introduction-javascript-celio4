@@ -1,5 +1,3 @@
-// Exercice 1a : création d'une constante avec mon prénom
+// Ce programme affiche un message Hello World
 
-const userName = "Fofo"; // ici tu mets ton prénom
-
-module.exports = userName;
+console.log("Hello World");
